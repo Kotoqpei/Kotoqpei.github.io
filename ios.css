@@ -1,0 +1,137 @@
+body {
+  font-family: "Helvetica";
+  background-color: #f2f1f6;
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img2.juzaphoto.com/002/shared_files/uploads/2622828_l.jpg);
+}
+
+.header__textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+.header__avatar:hover {
+  border: 3px solid #f7f6f0;
+}
+
+.header__title {
+  margin: 10px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+  align-items: center;
+}
+
+.header__subtitle {
+  color: #0c79ff ;
+  font-size: 15px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 10px;
+  background: #020200;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.links__header {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  font-family: "Helvetica Neue";
+  text-decoration: underline;
+}
+
+.links__container {
+  list-style-type: none;
+  background: #050000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #dedede;
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0c79ff;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #070000;
+  border-radius: 10px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #0c79ff;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #cf6f37;
+  color: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0);
+}
+
